@@ -68,9 +68,4 @@ public class MainController {
 		return "scoreboard.html";
 	}
 
-	@GetMapping("/testurl")
-	public String testUrl() {
-		return "<h1> Hello Test User </h1>";
-	}
-
 }
